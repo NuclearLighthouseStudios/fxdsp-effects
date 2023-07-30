@@ -1,0 +1,12 @@
+*/*
+!*/*/
+!*/*.*
+!*/README
+!*/Makefile
+**/.vscode/
+**/.wdsp/
+**/*.bin
+**/*.hex
+**/*.map
+**/*.o
+**/*.a
