@@ -52,6 +52,17 @@ leading to successive repetitions becoming more and more laden with compression 
 The GSM codec code is Copyright by Jutta Degener and Carsten Bormann.
 
 
+### Interface
+
+Not an effect by itself, but a small program that turns the FXDSP into a USB
+audio and MIDI interface.
+
+The knobs and the foot switch are turned into midi CC messages.
+True bypass and the LED can also be controlled via midi CC.
+
+CC numbers and and knob mappings can be adjusted in `config.ini`.
+
+
 ### Longlines
 
 A simple effect which just adds GSM compression to your signal.
